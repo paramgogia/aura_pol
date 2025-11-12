@@ -5,7 +5,7 @@ from tensorflow.keras.applications import mobilenet_v2
 import numpy as np
 from PIL import Image
 import cv2
-from streamlit_webrtc import webrtc_streamer, RTCConfiguration, VideoFrameCallback
+from streamlit_webrtc import webrtc_streamer, RTCConfiguration
 import av
 
 # --- Constants ---
